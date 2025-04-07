@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las tablas del papu</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 10px;
+                border: 1px solid #ddd;
+                text-align: left;
+            }
+            th {
+                background-color: #f4f4f4;
+            }
+        </style>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            
+        </tr>
+        <tr>
+            <td>Santiago</td>
+            <td>Ramirez</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Erick</td>
+            <td>Salazar</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Rodrigo</td>
+            <td>Perez</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Tomas</td>
+            <td>Piamonte</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Sebastian</td>
+            <td>Reyes</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Fabian</td>
+            <td>Orozco</td>
+            <td>24</td>
+        </tr>
+    </table>
+    <!-- ahora celdas extendidas -->
+    <table>
+        <tr>
+            <th colspan="2">Nombre</th>
+            <th colspan="2">Apellido</th>
+            <th colspan="2">Edad</th>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">Santiago</td>
+            <td rowspan="2">Ramirez</td>
+            <td rowspan="2">26</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Erick</td>
+            <td rowspan="2">Salazar</td>
+            <td rowspan="2">20</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Rodrigo</td>
+            <td rowspan="2">Perez</td>
+            <td rowspan="2">18</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Tomas</td>
+            <td rowspan="2">Piamonte</td>
+            <td rowspan="2">19</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Sebastian</td>
+            <td rowspan="2">Reyes</td>
+            <td rowspan="2">22</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Fabian</td>
+            <td rowspan="2">Orozco</td>
+            <td rowspan="2">24</td>
+        </tr>
+    </table>
+</body>
+</html>
