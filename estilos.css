@@ -7,3 +7,13 @@
     width: 30%;
     background-color: aquamarine;
 }
+@media (max-width:600px) {
+    
+    .contenedor {
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+    }
+}
+body{background-color: rgb(114, 96, 96);}
