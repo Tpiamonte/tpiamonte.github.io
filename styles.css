@@ -1,50 +1,15 @@
-body {background-color:aquamarine;}
-#titulo{
-    margin-left: 30%;
-    margin-right: 30%;
-    width: 40%;
-    background-color: beige;
-    text-align: center;
+body {
+  padding: 0%;
+  margin: 0%;
 }
-.titulos {
-    background-color:blanchedalmond;
-    color:brown
+.highlight {
+  background-color: aqua;
+  color: blueviolet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-ol {color:blueviolet}
-.parraforojo{color:red;}
-#primerparrafo{background-color: aqua;}
-#segundoparrafo{background-color:black;}
-#tercerparrafo{background-color:#ccc;}
-.shadowbox {
-    width: 15em;
-    border: 1px solid #333;
-    box-shadow: 8px 8px 5px #444;
-    padding: 8px 12px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-  }
-.container {
-    width: 300px;
-    height: 100px;
-    margin: 10px;
-    padding: 5px;
-    border: 1px solid black;
+#miCaja{
+    display: block;
 }
-/*No se que hace esta webada*/
-a:hover {
-    color: red;
-}
-li:nth-child(odd) {
-    background-color: lightgray;
-}
-/*transiciones o decorar boton*/
-button {
-    transition: background-color 0.3s;
-}
-button:hover {
-    background-color: darkblue;
-}
-
-@keyframes mover {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(100px); }
+#miCaja2 {
+    display: none;
 }

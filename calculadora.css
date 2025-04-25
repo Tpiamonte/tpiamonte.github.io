@@ -1,0 +1,12 @@
+body {
+  background-color: aquamarine;
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  background-color: gray;
+  margin: 15%;
+  margin-left: 40%;
+  margin-right: 45%;
+}

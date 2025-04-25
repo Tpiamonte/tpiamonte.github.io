@@ -1,58 +1,32 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera encarta</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- para sacar el sintaxis basica solo presiona ! -->
-    <!-- esto es un comentario y se activa con ctrl + } -->
-     <!-- estos son titulos -->
-      <h1 id="titulo">Titulo principal</h1>
-    <div class="titulos">
-     <h2>subtitulo</h2>
-     <h2>Parte del subtitulo</h2>
-     </div>
-     <div class="container">
-      <h2 id="titulo1">Otro Subtitulo de la pagina</h2>
-      <p class="parraforojo" id="primerparrafo">parrafo1</p>
-     </div>
-     <button>texto de prueba</button>
-    <div class="shadowbox">
-    <p class="parraforojo" id="segundoparrafo">Esto es un parrafo de lo cual deberia estar dentro de una caja oscura con letra morada</p>
-    <p class="parraforojo" id="tercerparrafo">Goku esta vaina es seria</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="miCaja">
+      <h1 id="miTitulo">Hola mundo</h1>
+      <p class="miClase">parrafo de prueba 1</p>
+      <p class="miClase">parrafo de prueba 2</p>
+      <p class="miClase">parrafo de prueba 3</p>
+      <button id="miBoton">Evento</button>
+      <br>
+      <button id="botonCambio">boton que cambiara el titulo</button>
+      <br>
+      <button id="botonRegresarCambio">Regresar Cambios</button>
+      <button id="ColorAzul">Color Azul</button>
+      <button id="ColorRojo">Color Rojo</button>
+      <button id="nuevodiv">Crear Div</button>
     </div>
-    <ol type="A">
-      <li>elemento 1</li>
-      <li>elemento 2</li>
-      <li>elemento 3</li>
-    </ol>
-    <ul type="square"> 
-      <li>elemento 1</li>
-      <li>elemento 2</li>
-      <li>elemento 3</li>
-    </ul>
-    <p>sera?</p>
-    <video src="RlVideo.mp4" loop autoplay controls height="480" width="600"></video>
-    <br>
-    <hr>
-    <pre>
-      texto
-       mantiene los espacios
-
-
-       no importa cuantos deje
-
-       si
-    </pre>
-    <a href="contactenos.html"><img src="images.jpg" alt="foto de perfil"></a>
-    <br>
-    <hr>
-    <a href="tablas.html">Ir a las tablas</a>
-    <a href="https://www.google.com">Ir a google</a>
-    <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">Ir a youtube</a>
-  <a href="tel:+3167824966">Numero telefonico</a>
-</body>
+    <div id="form">
+      <form id="miFormulario" action="">
+        <input type="text" name="nombre" id="nombre" />
+        <input type="submit" value="enviar" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
